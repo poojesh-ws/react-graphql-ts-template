@@ -2,10 +2,6 @@
 
 exports[`<ProtectedRoute /> tests should render and match the snapshot 1`] = `
 <body>
-  <div>
-    <h1>
-      Hello World
-    </h1>
-  </div>
+  <div />
 </body>
 `;

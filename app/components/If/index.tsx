@@ -4,8 +4,8 @@ import Proptypes from 'prop-types';
 
 interface IfProps {
   condition?: boolean | number | string;
-  otherwise?: React.ReactNode;
-  children: React.ReactNode;
+  otherwise?: React.ReactNode | boolean | number | string | {};
+  children: React.ReactNode | boolean | number | string | {};
 }
 
 const If: React.FC<IfProps> = (props) => <>{props.condition ? props.children : props.otherwise}</>;
